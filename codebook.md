@@ -13,7 +13,7 @@ In the following, the names if the variables ended in `_train` refer to the trai
 
 - BODY ACCELERATIONS for each axis are listed in the data frames `body_acc_x_train`, `body_acc_x_test`, `body_acc_y_train`, `body_acc_y_test`, `body_acc_z_train`, `body_acc_z_test`. Each one contains 128 columns corresponding to the 128 readings of the window. Each row corresponds to one subject as indicated above.
 
-- ANGULAR VELOCITIES for each axis are listed in the data frames `body_gyro_x_train`, `body_gyro_x_test`, `body_gyro_y_train`, `body_gyro_y_test`, `body_gyro_z_train`, `body_gyro_z_test`, with the same corresponce of row as indicated for the body accelerations.
+- ANGULAR VELOCITIES for each axis are listed in the data frames `body_gyro_x_train`, `body_gyro_x_test`, `body_gyro_y_train`, `body_gyro_y_test`, `body_gyro_z_train`, `body_gyro_z_test`, with the same correspondence of row as indicated for the body accelerations.
 
 - Equally, TOTAL ACCELERATIONS for each axis are listed in the data frames `total_acc_x_train`, `total_acc_x_test`, `total_acc_y_train`, `total_acc_y_test`, `total_acc_z_train`, `total_acc_z_test`. The sensor signals were sampled in fixed-width sliding windows of 2.56 sec and 50% overlap. As the sensors are read at 50 Hz, this means 128 readings/window, which is the number of columns of BODY, ANGULAR and TOTAL accelerations.
 
