@@ -28,7 +28,7 @@ The sensor acceleration signal, which has gravitational and body motion componen
 The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used.
 From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See `features_info.md` for more details.
 
-The tidy data set contains all the observations (both training and test sets) as well as the 2 columns required to identify each observation:
+The tidy data set `yX_avg` contains all the observations (both training and test sets) as well as the 2 columns required to identify each observation:
 
 - Subject number (1 to 30)
 - Activities, using the descriptive variables namesof the type of activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING)
