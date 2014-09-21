@@ -14,4 +14,4 @@ The script ´run_analysis.R´ covers the required steps of the project in the fo
 variable for each activity and each subject.
 
 Each one is conveniently label in the scripts and extensive comments are included to be able to follow the code step by step.
-As output a text file named ´yX_avg.txt' is produced containing the tidy data set.
+As output a text file named `yX_avg.txt` is produced containing the tidy data set.
