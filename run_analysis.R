@@ -129,4 +129,4 @@ yX_Melt <- melt(yX,id=c("subject","activity"),measure.vars=names(yX)[3:563])
 yX_avg <- dcast(yX_Melt, subject + activity ~ names(yX)[3:563],mean)
 
 ########### Save tidy set to a file named "yX_avg.txt"
-write.table(yX_avg,"./TIDY DATA/yX_avg.txt",row.names=FALSE,col.names=TRUE)
+write.table(yX_avg,"./yX_avg.txt",row.names=FALSE,col.names=TRUE)
